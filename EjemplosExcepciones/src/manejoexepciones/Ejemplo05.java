@@ -26,7 +26,7 @@ public class Ejemplo05 {
         
             
         }
-        catch (InputMismatchException inputMismatchException) {
+        catch (InputMismatchException inputMismatchException ) {
             System.out.printf("Existe un error de tipo %s\n", 
                     inputMismatchException);
         }

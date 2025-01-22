@@ -27,7 +27,7 @@ public class Ejemplo03 {
         
         }
         
-        System.out.println("continuamos");               
+        System.out.println("\ncontinuamos");               
     }
     
 }
