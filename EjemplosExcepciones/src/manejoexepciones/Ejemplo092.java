@@ -26,12 +26,12 @@ public class Ejemplo092 {
                 String inicial = String.valueOf(vocal);
                 if (inicial.equals("A") || inicial.equals("E") || inicial.equals("I") || inicial.equals("O")
                         || inicial.equals("U")) {
-                    cadena = cadena + nombre + "\n";
+                    throw new Exception("Debe ingresar unicamente paises que inicien con consonante");
+                    
                 }else {
-                    bandera = false;
-                    throw new Exception("Pais que inicia con una consonante, ingrese unicamente "
-                            + "paises que inicien con vocal");
+                    cadena = cadena + nombre + "\n";
                 }
+                bandera = false;
                 
                 
                 
