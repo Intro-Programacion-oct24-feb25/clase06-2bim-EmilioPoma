@@ -29,8 +29,8 @@ public class Ejemplo061 {
         
         /*catch(IllegalFormatConversionException i){
             System.out.println("Lo sentimos hay un error");
-            System.out.printf("De tipo %s\n", i);*/
+            System.out.printf("De tipo %s\n", i);
         }
                
-    }
+    }*/
 }
