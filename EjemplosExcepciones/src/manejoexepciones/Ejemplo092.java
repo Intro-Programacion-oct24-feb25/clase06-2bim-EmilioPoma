@@ -17,7 +17,7 @@ public class Ejemplo092 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         boolean bandera = true;
-        String cadena = "\nListado de Paises que inician con vocal:\n";
+        String cadena = "\nListado de Paises que inician con consonante:\n";
         while (bandera) {
             try {
                 System.out.println("Ingrese el nombre de un pais: ");
@@ -26,12 +26,12 @@ public class Ejemplo092 {
                 String inicial = String.valueOf(vocal);
                 if (inicial.equals("A") || inicial.equals("E") || inicial.equals("I") || inicial.equals("O")
                         || inicial.equals("U")) {
+                    bandera = false;
                     throw new Exception("Debe ingresar unicamente paises que inicien con consonante");
-                    
                 }else {
                     cadena = cadena + nombre + "\n";
                 }
-                bandera = false;
+                
                 
                 
                 
